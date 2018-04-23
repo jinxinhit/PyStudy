@@ -22,7 +22,7 @@ def signin_form():
 def signin():
     # 需要从request对象读取表单内容：
     if request.form['username']=='admin' and request.form['password']=='password':
-        return '<h3>Hello, qujinxin!</h3>'
+        return '<h3>Hello, justin!</h3>'
     return '<h3>Bad username or password.</h3>'
 
 if __name__ == '__main__':
